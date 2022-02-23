@@ -1,0 +1,245 @@
+* {
+  /* border: solid 1px gold; */
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.logo {
+  height: 3.5rem;
+  width: 3.4rem;
+  margin-left: 250%;
+}
+nav {
+  align-items: center;
+  height: 70px;
+  background-color: #02428c;
+  display: flex;
+}
+#clg-name {
+  margin-left: 8%;
+  display: inline;
+}
+.nav_links {
+  display: flex;
+  color: white;
+}
+.navbar {
+  margin-left: 45%;
+}
+ul {
+  list-style: none;
+}
+.nav_links li a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  margin: 0;
+}
+.nav_links li a:hover {
+  background-color: white;
+  color: #000000;
+}
+.img-logo {
+  display: inline;
+}
+.hero {
+  background-size: 1440px;
+  background: url(/Images/Main\ Road\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  /* background-position: center; */
+}
+.invisible {
+  height: 60vh;
+}
+.card {
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  display: block;
+  height: 115px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.card h2 {
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 57px;
+  display: block;
+  color: #000000;
+}
+.glance {
+  text-align: center;
+}
+.glance-cards {
+  justify-content: center;
+  display: flex;
+}
+.btn {
+  background-color: #02428c;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.8rem;
+  margin: 1rem;
+  width: 15vw;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.glance p {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 00.5rem;
+  margin-bottom: 0;
+}
+
+.glance-styles {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2.5%;
+}
+.glance-styles:hover {
+  background-color: #02428c;
+  color: white;
+}
+
+.parent {
+  margin-top: 2rem;
+  /* border: 2px solid red; */
+  display: flex;
+  width: 100vw;
+  height: 45vh;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
+.margin {
+  margin: 0.6vh;
+  box-sizing: border-box;
+}
+.child {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+  max-width: 23% !important;
+}
+.bigchild {
+  height: 50%;
+  padding: 2rem;
+  margin: 0.6vh;
+  box-sizing: border-box;
+}
+.smallchild {
+  width: 50%;
+  padding: 2rem;
+  margin: 0.6vh;
+  box-sizing: border-box;
+}
+.child3 {
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.parent-of-two {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+.parent-container {
+  background-color: #02428c;
+  height: 50vh;
+  width: 99vw;
+  display: flex;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.child-1,
+.child-2,
+.child-3 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2.5%;
+  margin: 0.5rem;
+}
+.btns {
+  background-color: #02428c;
+  border-radius: 0.2rem;
+  width: 5rem;
+  border: none;
+  padding: 0.7rem;
+  margin: 0.1rem;
+  color: #ffffff;
+}
+.btns:hover {
+  cursor: pointer;
+}
+.buttons-container {
+  margin-top: 20%;
+}
+.foot-img {
+  height: 70vh;
+  width: 100vw;
+  background-image: url(/Images/AcademicBuilding.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.foot-card {
+  height: 40%;
+  width: 40%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1%;
+}
+footer > h2,
+p {
+  margin: 10px;
+}
+footer div p {
+  font-size: 1.2rem;
+}
+.foot-card-textbox {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+.icon {
+  width: 18px;
+  height: 25px;
+  margin: 5px;
+  align-self: center;
+}
+.flex {
+  display: flex;
+}
+.icon-mail {
+  width: 25px;
+  height: 18px;
+  align-self: center;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+.text-box {
+  margin-top: 6.8%;
+}
+.footer-block {
+  display: flex;
+  height: 40vh;
+  color: #ffffff;
+  background: #343434;
+}
+.text {
+  padding: 5rem;
+  flex: 1;
+}
